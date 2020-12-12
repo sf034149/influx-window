@@ -1,0 +1,3 @@
+#!/bin/sh
+curl -G 'http://dock2.steininger.eu:8086/query?pretty=true' --data-urlencode "db=Kollo16" --data-urlencode "q=SELECT last(\"status\") FROM \"winmeas\" WHERE \"room\"='KW'"
+
